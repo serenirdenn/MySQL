@@ -1,6 +1,5 @@
 /* Part1 */
 
-/* inner join kesişen küme*/
 -- dept_manager_dup
 SELECT 
     *
