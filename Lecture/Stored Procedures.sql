@@ -41,6 +41,6 @@ call employees.select_employees();
 call employees.select_employees;
 
 call select_employees();
-/* use emp yaptğmz için çağrmş olduk employeese gerek yok*/	
+/* because of we use "use emp" there is no need for employees (we have called)*/	
 call select_employees;
 
