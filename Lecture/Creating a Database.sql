@@ -1,0 +1,9 @@
+/*Part1 */
+
+CREATE DATABASE IF NOT EXISTS Sales;
+
+CREATE SCHEMA IF NOT EXISTS Sales;
+
+/*Part2 */
+USE sales;
+
