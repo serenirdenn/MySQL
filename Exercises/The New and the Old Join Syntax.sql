@@ -22,6 +22,6 @@ FROM
     employees e
         JOIN
     dept_manager dm ON e.emp_no = dm.emp_no; 
-    /* burada dept_manager tablosundan employee tablosundaki emp_noyu kullanarak data çekiyoruz ortak olan o. */
-/* istenen Extract a list containing information about all managers’ employee number, first and last name,
+    /* Here we are getting data from the dept_manager table using the emp_no from the employee table. */
+/* Extract a list containing information about all managers’ employee number, first and last name,
  department number, and hire date. Use the old type of join syntax to obtain the result.*/
