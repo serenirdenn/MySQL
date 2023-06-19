@@ -8,4 +8,4 @@ SELECT
 FROM
     salaries;
     
-/*en yakn integer için round(avg(salary)) yeterli */
+/*for closest integer round(avg(salary)) enough*/
