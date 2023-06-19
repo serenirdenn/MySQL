@@ -1,6 +1,6 @@
 /* Part1 */
 
-/* sol küme*/
+
 -- remove the duplicates from the two tables
 DELETE FROM dept_manager_dup 
 WHERE emp_no = '110228';
