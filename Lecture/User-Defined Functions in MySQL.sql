@@ -4,7 +4,7 @@ DROP FUNCTION IF EXISTS f_emp_avg_salary;
 DELIMITER $$
 CREATE FUNCTION f_emp_avg_salary (p_emp_no INTEGER) RETURNS DECIMAL(10,2)
 
-/*buraya kod versiyon uymadğndn hata aldğ için deterministic ekledik*/
+/*deterministic has been added here because the code version does not match and it gets an error*/
 
 /*DETERMINISTIC – it states that the function will always return identical result given the same input
  NO SQL – means that the code in our function does not contain SQL (rarely the case)
