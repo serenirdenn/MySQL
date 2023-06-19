@@ -11,8 +11,8 @@ FROM
         JOIN
     departments d ON m.dept_no = d.dept_no
 ;
-/* employees e e yi tanmlad o tabledan first_name, last_name, hire_date çekti. Managers tablendan from_date, departments dan
-dept_name çekti */
+/* employees e defines e  from that table first_name, last_name, hire_date, from managers table from_date, from departments table
+dept_name */
 
 
 
