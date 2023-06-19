@@ -19,10 +19,10 @@ FROM
     departments_dup
 ORDER BY dept_no ASC;
 
-/*verileri dublike etti*/
-/*normalde 20 row data alrken aşağdaki kodu dahil edince 25 ro aldk sebebi
-departments_dumpxdept_dump_managerin 2x4 (2 20 ye dahildi 4 daha dahil oldu d003den de 1 geldi) 
-olarak d009 vermesi group by m.emp_no ekleyerek tekrar 20 yapabilrz*/
+/*it duplicated the data*/
+/*While we normally get 20 rows of data, when we include the code below, we get 25 rows.
+The reason is that departments_dump x dept_dump_manager gives d009 as 2x4 (2 included 20, 4 more included, 1 came from d003).
+We can make 20 again by adding group by m.emp_no.) */
 -- inner join
 SELECT 
     m.dept_no, m.emp_no, d.dept_name
@@ -33,7 +33,7 @@ FROM
 ORDER BY dept_no;
 
 
-/*dept_no, emp_no,dept_name çkts geldi*/
+/*dept_no, emp_no,dept_name output came*/
 /*
 employees;
 birth_date
