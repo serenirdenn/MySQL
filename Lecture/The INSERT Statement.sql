@@ -17,7 +17,7 @@ INSERT INTO employees
 	hire_date
 ) VALUES 
 (
-	999901,/*int olduğu için trnak yok*/
+	999901,/*no quotes because this is an int*/
     '1986-04-21',
     'John',
     'Smith',
