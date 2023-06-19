@@ -15,8 +15,8 @@ WHERE
 END$$
 
 DELIMITER ;
-/* bunu yaptktan sonra stored procedure ksmndaki şimşeğe basnca emp no sorucak bir emp
-noyu girdiğinde ise o kişi hakknda tüm kontratlar çkcak*/
+/* After doing this, when you press the lightning in the stored procedure section, 
+it will ask for an emp number, and when you enter an emp number, all contracts about that person will appear**/
 
 -- emp_avg_salary with SELECT e.first_name, e.last_name, avg(s.salary)
 DROP procedure IF EXISTS emp_avg_salary;
