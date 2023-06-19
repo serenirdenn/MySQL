@@ -26,8 +26,9 @@ FROM
 GROUP BY m.emp_no
 ORDER BY m.dept_no;
 */
-/* 26 oldu left ekli değilken 20 row du aradaki 6 fark manager tablenda olan ama departmentsda olmayan
- 4 record alnd onun dşnda örneğin d002 departmant yok ama managerda var o alnr */
+/* It became 26 when left was not attached, it was 20 rows, the 6 differences are those that are in the manager table
+but not in the departments.
+4 records were taken apart from that, for example d002 is not in department, but it is in the manager, it is taken*/
 SELECT 
     m.dept_no, m.emp_no, d.dept_name
 FROM
