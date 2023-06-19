@@ -25,8 +25,7 @@ FROM
     employees
 WHERE
     hire_date > '2000-01-01';
-    /*have toplanmş gruplarn alt kümeleri için de uygulanabilirken
-    where de yasak*/
+    /*have can also be applied to subsets of aggregated groups, while it is forbidden to apply where*/
     
 SELECT 
     *
