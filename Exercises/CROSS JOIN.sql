@@ -9,8 +9,8 @@ FROM
 WHERE
     d.dept_no = 'd009'
 ORDER BY d.dept_name;
-/* deptartments tblosundaki tüm departmanlar çekti bunlar manager tablosuyla crosslad ama departments tablosundaki
-d009 ü kullanma snr koydu*/
+/* Getting all departments from the departments table, crossed them with the dep_manager table. 
+But it set a limit to use d009 in the departments table*/
 
 /* Part2 */
 
