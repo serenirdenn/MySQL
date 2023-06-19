@@ -2,7 +2,7 @@ SELECT
     COUNT(emp_no)
 FROM
     employees;
-     /* kaç tane emp no var */
+     /* how many employees are there? */
     
 Select*from employees where first_name is null;
     
@@ -22,4 +22,4 @@ SELECT
     COUNT(DISTINCT first_name)
 FROM
     employees;
-/* 1275 sayda insan farkli isme sahip */
+/* 1275 people has different names */
