@@ -27,7 +27,7 @@ SELECT
     first_name, COUNT(first_name) as names_count
 FROM
     employees
-     /*where de runlamaz */
+     /* it can not run with where */
 GROUP BY first_name
 HAVING COUNT(first_name) > 250
 ORDER BY first_name;
